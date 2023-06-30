@@ -9,3 +9,8 @@ run this code with RevBayes by typing
 rb code/phylo-relaxed-clocked-fixed-topology.Rev
 
 ```
+to speed up the analysis use
+
+```
+mpirun -np 4 rb-mpi code/phylo-relaxed-clocked-fixed-topology.Rev
+```
