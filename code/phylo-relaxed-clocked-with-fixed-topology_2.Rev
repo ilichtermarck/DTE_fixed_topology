@@ -9,7 +9,7 @@
 #######################
 # Reading in the Data #
 #######################
-analysis = "Marina_DTE_fixed_topology"
+analysis = "Marina_DTE_fixed_topology_7_20"
 # read in the alignments
 filenames = v("data/aligned_5841_supercontig_clean.nexus", 
 "data/aligned_6779_supercontig_clean.nexus", 
@@ -47,8 +47,8 @@ for(i in 1:n_data_subsets) {
 }
 
 #some useful data
-n_tips <- data[1].ntaxa()
-taxa <- data[1].taxa()
+n_tips <- observed_phylogeny.ntips()
+taxa <- observed_phylogeny.taxa()
 n_branches <- 2 * n_tips - 2
 mi = 0
 

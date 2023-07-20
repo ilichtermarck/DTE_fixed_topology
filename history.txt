@@ -1,1 +1,16 @@
 q()
+n_branches
+2*62
+observed_phylogeny
+observed_phylogeny.ntips()
+61 * 2
+-2
+n_branches
+n_branches <- 2 * n_tips - 2
+n_branches
+n_branches <- (2 * n_tips) - 2
+n_branches
+n_tips
+observed_phylogeny.ntips()
+q(
+q()
