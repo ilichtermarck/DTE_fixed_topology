@@ -9,7 +9,7 @@
 #######################
 # Reading in the Data #
 #######################
-analysis = "Marina_DTE_fixed_topology_7_20"
+analysis = "Marina_DTE_fixed_topology_7_20_2"
 # read in the alignments
 filenames = v("data/aligned_5841_supercontig_clean.nexus", 
 "data/aligned_6779_supercontig_clean.nexus", 
